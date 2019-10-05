@@ -1,0 +1,26 @@
+# This is Git's per-user configuration file.
+[user]
+    name = Shreepad Patil
+    email = spatil@honestbuildings.com
+[alias]
+    l = log --color --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    la = log --all --color --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    d = diff
+    ff = fetch --all
+    b = branch
+    po = push origin
+    co = checkout
+    di = diff
+    pu = pull
+    pof = push --force-with-lease
+    poc = !git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD) 
+    aa = !git add -N . && git add -p && git s
+    s = !git status && git diff --shortstat origin/master HEAD
+    f = fetch --all
+    cb = checkout -b
+    ci = commit -m
+    uci = !git reset --soft HEAD^ && git status
+    createpr = !git rev-parse HEAD && git reset --soft HEAD^ && git reset && git status
+    cl = clean -d -X -f
+    commend = commit --amend --no-edit --date=now
+    delbranch = !git branch | grep -v master | xargs git branch -D
