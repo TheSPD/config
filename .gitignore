@@ -1,0 +1,10 @@
+**
+.**
+!.gitignore
+!.vimrc
+!.vim/
+!.vim/**
+!.zshrc
+!.oh-my-zsh/
+!.oh-my-zsh/**
+!.gitconfig
