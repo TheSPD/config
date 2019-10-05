@@ -24,3 +24,5 @@
     cl = clean -d -X -f
     commend = commit --amend --no-edit --date=now
     delbranch = !git branch | grep -v master | xargs git branch -D
+[core]
+	editor = vim

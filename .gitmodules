@@ -13,3 +13,6 @@
 [submodule ".vim/bundle/vim-prettier"]
 	path = .vim/bundle/vim-prettier
 	url = git@github.com:prettier/vim-prettier.git
+[submodule ".vim/pack/plugins/start/vim-go"]
+	path = .vim/pack/plugins/start/vim-go
+	url = git@github.com:fatih/vim-go.git
