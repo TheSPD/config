@@ -5,6 +5,7 @@
 !.vimrc
 !.vim/
 !.vim/**
+.vim/.netrwhist
 !.zshrc
 !.oh-my-zsh/
 !.oh-my-zsh/**
