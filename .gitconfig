@@ -16,6 +16,7 @@
     poc = !git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD) 
     aa = !git add -N . && git add -p && git s
     s = !git status && git diff --shortstat origin/master HEAD
+    st = !git status	
     f = fetch --all
     cb = checkout -b
     ci = commit -m
